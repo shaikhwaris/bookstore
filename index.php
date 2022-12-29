@@ -6,7 +6,7 @@
 <?php
 session_start();
 	if(isset($_POST['ac'])){
-		$servername = "localhost";
+		$servername = "mysql-apache8";
 		$username = "waris";
 		$password = "waris@123";
 
@@ -33,7 +33,7 @@ session_start();
 	}
 
 	if(isset($_POST['delc'])){
-		$servername = "localhost";
+		$servername = "mysql-apache8";
 		$username = "waris";
 		$password = "waris@123";
 
@@ -50,7 +50,7 @@ session_start();
 		$conn->query($sql);
 	}
 
-	$servername = "localhost";
+	$servername = "mysql-apache8";
 	$username = "waris";
 	$password = "waris@123";
 

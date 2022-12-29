@@ -12,7 +12,7 @@ $oEmail;
 $oPhone;
 $oAddress;
 
-$servername = "localhost";
+$servername = "mysql-apache8";
 $username = "waris";
 $password = "waris@123";
 
@@ -101,7 +101,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 												}else{
 													$address = $_POST['address'];
 
-													$servername = "localhost";
+													$servername = "mysql-apache8";
 													$username = "wariss";
 													$password = "waris@123";
 

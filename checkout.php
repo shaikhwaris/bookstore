@@ -10,7 +10,7 @@
 session_start();
 
 if(isset($_SESSION['id'])){
-	$servername = "localhost";
+	$servername = "mysql-apache8";
 	$username = "waris";
 	$password = "waris@123";
 
@@ -135,7 +135,7 @@ if(isset($_POST['submitButton'])){
 										}else{
 											$address = $_POST['address'];
 
-											$servername = "localhost";
+											$servername = "mysql-apache8";
 											$username = "waris";
 											$password = "waris@123";
 
@@ -305,7 +305,7 @@ if(!isset($_SESSION['id'])){
 }
 
 if(isset($_POST['submitButton'])){
-	$servername = "localhost";
+	$servername = "mysql-apache8";
 	$username = "waris";
 	$password = "waris@123";
 
